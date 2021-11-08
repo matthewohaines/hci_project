@@ -21,6 +21,8 @@ ul {
 
 li {
     display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 li a {
@@ -43,7 +45,8 @@ li a:hover {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 2px solid #871515;
+    margin-top: 1px;
     text-align: center;
     outline: none;
     font-size: 15px;
@@ -61,5 +64,9 @@ li a:hover {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: lightgray;
+  }
+
+  .content p{
+      text-align: center;
   }
