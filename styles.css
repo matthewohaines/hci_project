@@ -15,8 +15,8 @@
 .subHeader {
     text-align: center;
     font-size: 2.5rem;
-    color: white;
-    -webkit-text-stroke: 1pt black;
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 ul {
