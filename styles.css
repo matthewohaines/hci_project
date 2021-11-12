@@ -87,5 +87,26 @@ li a:hover {
   }
 
   
+  .gardenSalad{
+     width: 80%;
+     height: 700px;
+     border: 1px solid #000;
+     background-color: #28285F;
+     margin-right: 10%;
+     margin-left: 10%;  
+  }
 
+  .column {
+    float: left;
+    width: 25%;
+    text-color: white;
+    font-size: 24px;
+  }
+
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
