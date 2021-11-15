@@ -105,14 +105,34 @@ li a:hover {
   .column {
     float: left;
     width: 25%;
-    text-color: white;
-    font-size: 24px;
+    color: white;
+    font-size: 18px;
+    text-align: center;  
   }
 
-/* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
+  .gsalad {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+
+  }
+
+  .ingredients {
+    color: white;
+    text-align: right-center;
+  }
