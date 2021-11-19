@@ -12,12 +12,14 @@
     color: white;
     text-shadow: 2px 2px 0px black}
 
+/* styling for nav bar */
 .subHeader {
     text-align: center;
     font-size: 2.5rem;
     color: black;
 }
 
+/* styling for nav bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,12 +27,14 @@ ul {
     background-color: gray;
 }
 
+/* alignment within nav bar options */
 li {
     display: inline-block;
     margin-right: 10%;
     margin-left: 10%;
 }
 
+/* styling of nav bar objects */
 li a {
     display: block;
     color: white;
@@ -40,11 +44,12 @@ li a {
     font-size: 14pt;
 }
 
+/* hover styling for nav bar objects */
 li a:hover {
     background-color: rgb(214, 212, 212);
 }
 
-
+/* styling for collapsible portions */
 .collapsible {
     background-color: #28285F;
     color: white;
@@ -58,14 +63,17 @@ li a:hover {
     font-size: 24px;
   }
   
+/* collapsible hover styling */
   .collapsible:hover {
     background-color: gray;
   }
 
+/* background styling */
   .active{
       background-color: #871515;
   }
   
+/* styling for content within collapsible portions */
   .content {
     padding: 0 18px;
     display: none;
@@ -73,26 +81,30 @@ li a:hover {
     background-color: lightgray;
   }
 
+/* alignment for text within collapsible portions */
   .content p{
       text-align: center;
       text-decoration: none;
   }
 
+/* remove link styling */
   .content a{
       text-decoration: none;
   }
 
+/* remove visisted link styling */
   .content a:visited{
       color: black;
       text-decoration: none;
   }
 
+/* hover styling for links */
   .content p:hover, .content a:hover{
     text-decoration: underline;
     color: blue;
   }
 
-  
+  /* styling for garden salad */
   .gardenSalad{
      width: 80%;
      height: 700px;
@@ -102,6 +114,7 @@ li a:hover {
      margin-left: 10%;  
   }
 
+/* column formatting */
   .column {
     float: left;
     width: 25%;
@@ -110,12 +123,14 @@ li a:hover {
     text-align: center;  
   }
 
+/* row formatting */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
+/* salad formating */
   .gsalad {
     font-weight: bold;
     text-align: center;
@@ -123,6 +138,7 @@ li a:hover {
     font-size: 48px;
   }
 
+/* line alignment */
   .line {
     width: 80%;
     height: 1px;
@@ -132,12 +148,13 @@ li a:hover {
 
   }
 
+/* ingredient styling */
   .ingredients {
     color: white;
     text-align: right-center;
   }
 
-
+/* image sizing and alignment */
   .content img{
     height: auto;
     width: 5%;
